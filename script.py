@@ -1,5 +1,7 @@
-create_dataset.py
+#!/bin/bash
 
-train_model.py
+python3 create_dataset.py
 
-make_prediction.py
+python3 train_model.py
+
+python3 make_prediction.py
